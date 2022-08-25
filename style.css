@@ -1,0 +1,24 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.allTime {
+  font-family: "Poppins", sans-serif;
+  color: #00ff00;
+  margin-top: 20rem;
+  font-size: 10rem;
+  box-shadow: 10px 10px 10px#1f46b1;
+  border-top: solid #1f46b1 1px;
+  border-left: solid #1f46b1 1px;
+}
+@media (max-width: 430.98px) {
+  .allTime {
+    width: 380px;
+    font-size: 95px;
+  }
+}
